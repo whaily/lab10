@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 мая 2021 г., 14:24:21
+    Author     : antia
+*/
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+ul li {
+    background-color: yellowgreen;
+    padding: 20px 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    transition: box-shadow 0.5s, transform .5s;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+    box-shadow:  0 0 5px rgba(0,0,0,0.5);;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.right {
+    margin-right: -200px;
+}
+
+.left {
+    margin-left: -200px;
+}
